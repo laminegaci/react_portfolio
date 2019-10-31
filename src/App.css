@@ -1,22 +1,103 @@
-.App {
+.header-color {
+  background: #355C7D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.Landing-grid {
+  background: #355C7D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} 
+.avatar-img {
+  height : 250px;
+  padding-top: 5em;
 }
-
-.App-logo {
-  height: 40vmin;
+.banner-text {
+  background-color:rgb(0, 0,0,0.3);
+  
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.banner-text h1{
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color:white; 
+}
+.banner-text hr{
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+.banner-text p{
   color: white;
+  font-size: 20px;
+  padding:1em ;
 }
+.social-links{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+.social-links i{
+  color: white;
+  font-size:5em;
+  padding-top: 8px;
+}
+.Button{
+  margin: 10px 224px;
+  float: left;
+  width: 30px;
 
-.App-link {
-  color: #09d3ac;
+}
+.grid-content{
+  display: flex;
+ 
+}
+.contact-body{
+  margin: auto;
+  
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+.contact-grid{
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background-color: white;
+  color: black;
+  margin-bottom: 20px;
+}
+.contact-grid h2{
+  font-family: 'Auton', sans-serif;
+}
+.contact-grid p{
+  font-family: 'Oxygen', sans-serif;
+}
+.contact-grid hr{
+  border-top:5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+.contact-list i{
+  font-size: 60px;
+  padding-right:6rem;
+}
+.delete{
+  color:red;
+  font-size: 20px;
 }

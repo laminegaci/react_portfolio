@@ -11,3 +11,59 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.text-center{
+  text-align:center ;
+}
+.container{
+  width: 60%;
+  margin:10% auto;
+}
+
+.ListItems{
+  background: #fff;
+  color: #46529d;
+}
+.ListItems p{
+  margin: 0;
+  text-align: center;
+  padding: 10px 0px;
+}
+.ListItems span{
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0px;
+  font-size:20px;
+  border: 0.3px solid #ccc;
+}
+.ListItems span.title{
+  background: #2ebaee;
+  color: #fff;
+}
+.ListItems span.name{
+  width: 50%;
+}
+.ListItems span.niveau{
+  width: 30%;
+}
+.ListItems span.action{
+  width: 10%;
+}
+.inputs .input-name{
+  width: 50%;
+}
+.ListItems span.icon {
+  color:red;
+  cursor: pointer;
+}
+form input{
+  padding: 10px;
+  background:#2ebaee;
+  border: transparent;
+  border: 0.3px solid #ccc;
+}
+form input[type=submit] {
+  background: #2ebaee;
+  border: 0.3px solid #2ebaee;
+  color: #fff;
+  cursor: pointer;
+}
